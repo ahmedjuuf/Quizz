@@ -1,0 +1,193 @@
+[
+    {
+      "question":" Qui est le plus jeune president americain de l'histoire ",
+      "choices" : ["Abraham LINCOLN","John Fitzerald KENNEDY","Hary TRUMAN","Martin Luther KING"],
+      "ans":"John Fitzerald KENNEDY"
+    },
+        {
+      "question":"La chute de quel regime en 2003 eut comme consequence la frustration de quelques uns de ses chefs  et leur insertion dans l'Al Qaida ?",
+      "choices" : ["Saddam Hussein","Ussama Ben LADEN","Mouammar Khadafi","Anouar El Sadate"],
+      "ans":"Saddam Hussein"
+    },
+    {
+      "question":"Qui est le dernier souverain de l'Ethiopie?",
+      "choices" : ["Nefertiti","Haile Selassie","Heron 4","ToutaKhanon"],
+      "ans":"Haile Selassie"
+    },
+        {
+      "question":"Officiellement,quel metier exercait Mohandas Karamshand Gandhi ",
+      "choices" : ["Soudeur","Avocat","Bijoutier","Medecin"],
+      "ans":"Avocat"
+    },
+      {
+    "question":"Je suis un homme d'etat, mon autobiographie a pour titre “Un long chemin vers la liberte” J'ai vote pour la premiere fois a l'age de 56 ans; vote que j'ai gagne. Qui suis-je",
+    "choices" : ["Nelson Mandela","Desmond Tutu","Malcolm X","Barack Obama"],
+    "ans":"Nelson Mandela"
+  },
+    {
+    "question":"Je suis la seule personne a etre premiere dame de deux pays differents.Qui suis-je?",
+    "choices" : ["Winnie Mandela","Impossible","Michel Obama","Graca Machel"],
+    "ans":"Graca Machel"
+  },
+    {
+    "question":"Quel etat des USA a pour capitale Honolulu ?",
+    "choices" : ["Hawai","New York","Alabama","Harlem"],
+    "ans":"Hawai"
+  },
+  {
+    "question":"Quel pays eut comme heros de la nation le general “Mustafa Kemal” dit Ataturk ",
+    "choices" : ["France","Algerie","Turquie","Maroc"],
+    "ans":"Turquie"
+  },
+  {
+    "question":"Quelle est la capitale de Micronesie",
+    "choices" : ["Palikir","Algerie","Turquie","Tuvalu"],
+    "ans":"Palikir"
+  },
+  {
+    "question":"Qui suis-je. Moyen dont dispose le parlement pour montrer sa desapprobation de la politique du gouvernement et le contraindre a demissionner ? ",
+    "choices" : ["Etat d'urgence","Covid","Motion de censure","Etat de droit"],
+    "ans":"Motion de censure"
+  },
+  {
+    "question":"Quelle est la devise nationale des Etats-Unis? ",
+    "choices" : ["Nous sommes les Etats-Unis","L'Amerique aux americains","On nous tue mais on ne nous deshonore pas",
+                "En Dieu nous croyons" ],
+    "ans":"En Dieu nous croyons"
+  },
+  {
+    "question":"En informatique, Je suis un langage de programmation interprete, tres utilise dans beaucoup de domaines et cree par Guidon Van Rossom en 1991. ",
+    "choices" : ["Python","R","Anaconda","JavaScript"],
+    "ans":"Python"
+  },
+  {
+    "question":"Avec une superficie de 165 250 000 km², je suis le plus grand ocean du monde. Qui suis-je?",
+    "choices" : ["Pacifique","Atlantique","Indien","Antarctique"],
+    "ans":"Pacifique"
+  },
+  {
+    "question":"Que signifie SOWETO?",
+    "choices" : ["South West Township","So we tought","Since wetried","Ce n'est pas un sigle"],
+    "ans":"South West TownShip"
+  },
+  {
+    "question":"Que signifie HLM?",
+    "choices" : ["Haut Lieu Moyen","Habitations a Loyers Moderes","Habitats a Logements Moyens","Ce n'est pas un sigle"],
+    "ans":"Habitations a Loyers Moderes"
+  },
+  {
+    "question":"Combien d'apotres avait Jesus ?",
+    "choices" : ["13","20","10","12"],
+    "ans":"12"
+  },
+  {
+    "question":"Quel verbe contenant le mot “Amadou” flatter quelqu'un pour le disposer a ce qu'on desire de lui?",
+    "choices" : ["Armada","Amadoueur","Amadoucir","Amadouer"],
+    "ans":"amadouer"
+  },
+  {
+    "question":"Qui est le businessmann le plus riche de l'histoire ?",
+    "choices" : ["Kankan Moussa","Steve Jobs","Rockefeller","Elon Musk"],
+    "ans":"Rockefeller"
+  },
+  {
+    "question":"Qui est l'auteur du livre de reference de geostrategie chinoise:L'art de la Guerre?",
+    "choices" : ["Sun Tzu","Conficius","Lao Tseu","Autre"],
+    "ans":"Sun Tzu"
+  },
+  {
+    "question":"Qui est le fondateur de l'olympisme moderne ?",
+    "choices" : ["Pierre de Coubertin","Zinedine Zidane","Maradonna","Les grecs"],
+    "ans":"Pierre de Coubertin"
+  },
+  {
+    "question":"Je fus soldat de la garde imperiale imperiale ethiopienne.J'ai donne a l'Afrique noire sa premiere medaille d'or, exploit que j'ai realise pieds nus, dans le pays qui a colonise le sien dans les annees 1930.Qui suis-je ?",
+    "choices" : ["","","",""],
+    "ans":""
+  },
+  {
+    "question":"Quel jour de la semaine correspondait au fameux crash de 1929 ?",
+    "choices" : ["Lundi","Mardi","Jeudi","Vendredi"],
+    "ans":"Jeudi"
+  },
+  {
+    "question":"Qui est l'auteur de la citation suivante: le noir qui veut blanchir sa race est aussi malheureux que celui qui preche la haine du blanc. ",
+    "choices" : ["Frantz Fanon","David DIOP","Malcolm X","Nelson Mandela"],
+    "ans":"Frantz Fanon"
+  },
+  {
+    "question":"Figure de style designant l'imitation d'un son.",
+    "choices" : ["Onomatopee","Personnification","Anaphore","Oxymore"],
+    "ans":"Onomatopee"
+  },
+  {
+    "question":"Quel est le nom scientifique du baobab ?",
+    "choices" : ["Adansonia digitata","Lawsonia inermis","baobab","Hyptus chuaveolens"],
+    "ans":"Adansonia digitata"
+  },
+  {
+    "question":"En musique,quelle chanteuse canadienne a participe dans la chanson “Sous le vent” ?",
+    "choices" : ["Nene Cherry","Celine DION","Rihanna","Madonna"],
+    "ans":"Celine DION"
+  },
+  {
+    "question":"Qui est l'auteur du celebre chanson mandingue Yekeke ?",
+    "choices" : ["Myriam Makeba","Youssou Ndour","Mory Kante","Angelique Kidio"],
+    "ans":"Mory Kante"
+  },
+  {
+    "question":"Quel pays occupait le poste de membre permanent des nations unies avant detre remplace par la Chine ?",
+    "choices" : ["Etats-Unis","Allemagne","Taiwan","Pakistan"],
+    "ans":"Taiwan"
+  },
+  {
+    "question":"Quel chanson caritative ecrite par Michael Jackson et Lionel Richlie  avait pour objectif de regrouper des fonds pour lutter contre la famine en Ethiopie?",
+    "choices" : ["We are the World","Thriller","Beat","Ghost"],
+    "ans":"We are the World"
+  },
+  {
+    "question":"De quelle nationalite est la marque de voiture Tata ?",
+    "choices" : ["Inde","Etats-Unis","Chine","France"],
+    "ans":"Inde"
+  },
+  {
+    "question":"Quelle est la langue la plus parlee au monde ?",
+    "choices" : ["Mandarin","Anglais","Francais","Espagnol"],
+    "ans":"Mandarin"
+  },
+  {
+    "question":"Quelle organisation est creee a la suite de la bataille de Solferino ?",
+    "choices" : ["Croix Rouge","ONU","Africa Mercy","Human Right Watch"],
+    "ans":"Croix Rouge"
+  },
+  {
+    "question":"Que signifie OGM ?",
+    "choices" : ["Organismes Genetiquement Modifies","","",""],
+    "ans":"Organismes Genetiquement Modifies"
+  },
+  {
+    "question":"Je suis erudit, un petit-fils d'El Hadj Malick SY ne en 1925 a Ndar..Je suis aussi un intellectuel et homme d'affaires hors normes. J'ai publie a 16 ans mon premier ouvrage intitule Les vices des marabouts. Qui suis-je ?",
+    "choices" : ["Serigne Babacar SY","Serigne Moustapha SY","Serigne Moustapha SY","Serigne Cheikh Ahmed Tidiane SY"],
+    "ans":"Serigne Cheikh Ahmed Tidiane SY"
+  },
+  {
+    "question":"Quel recueil d'El Hadji Malick Sy de 1001 vers retrace la vie du Prophete Mohammad ?",
+    "choices" : ["Khilassou Zahab","Zajr Ul Qulûb","Adâb Ul Masjîd","Faakihatul Tullab"],
+    "ans":"Khilassou Zahab"
+  },
+  {
+    "question":"Combien de regions compte le Senegal ?",
+    "choices" : ["14","15","7","10"],
+    "ans":"14"
+  },
+  {
+    "question":"Dans quel pays se trouve le siege de L'ONU ?",
+    "choices" : ["Etats-Unis","France","Afrique du SUD","Angleterre"],
+    "ans":"Etats-Unis"
+  },
+  {
+    "question":"Qui est le deuxieme President du Senegal ?",
+    "choices" : ["Macky Sall","Abdoulaye Wade","Abdou DIOUF","Leopold Sedar Senghor"],
+    "ans":"Abdou DIOUF"
+  }
+]

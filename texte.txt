@@ -1,0 +1,3 @@
+-Couleurs de fond aleatoires
+-Choix par challenge ou entrainement ou competition a deux.
+-Gestion sequences: Insertion nom.

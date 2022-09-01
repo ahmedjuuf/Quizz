@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+  </head>
+
+  <body>
+    <div class="main-div">
+        <div class="quiz-app">
+          <!-- Affichage au demarrage -->
+          <div class="start" >
+            <img src="images/2080878.png"/>
+            <h1 class="app">Quiz App</h1>
+            <p id="code">&copy; Ahmed Juuf</p>
+            <div class="next_bouton">Demarrer Game</div>
+          </div>
+          <!-- Jeu proprement dit -->
+          <div class="quiz">        
+              <!-- Timing progression  -->
+            <div class="time-bar">
+              <div class="time-left">
+          
+              </div>
+            </div>
+            <div class="question-no">
+              <div class="resultProv">
+                <div class="vies">
+                  <i class="fas fa-heart couleur_vie"></i>
+                  <i class="fas fa-heart couleur_vie"></i>
+                  <i class="fas fa-heart couleur_vie"></i>
+                  <i class="fas fa-heart couleur_vie"></i>
+                  <i class="fas fa-heart couleur_vie"></i>
+                </div>
+                <div>
+                  <span id="totalQuestions"> Question: </span><span id="currentQuestion">1</span> 
+                </div>
+              </div>
+            </div>
+            <div id="question">
+              <h1 >Who is the first child of the john doe?</h1>
+
+            </div>
+            <div class="choices">
+              <button class="btn" id="opt1">Mark Angel</button>
+              <button class="btn" id="opt2">Mark Angel</button>
+              <button class="btn" id="opt3">Mark Angel</button>
+              <button class="btn" id="opt4">Mark Angel</button>
+            </div>
+            <div class="next-btn">
+              <button id="next" class="bouton_next demarrer_game">Passer</button>
+            </div>
+          </div>
+          <!-- Affichage du resultat -->
+          <div class="result" >
+            <img src="images/res.png" height="120px" width="120px" class="il"/>
+            <h1 class="app"> Score : <span id="score">6</span></h1>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</htm>
