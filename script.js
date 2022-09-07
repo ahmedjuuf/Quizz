@@ -42,11 +42,16 @@ request.responseType = 'json';
 request.send();
 request.onload = function() {
   quizQuestions = request.response;
+  console.log(quizQuestions.length)
 }
 
 // Debut; cacher les deux interfaces:fin et game
-quizzScreen.classList.add("hidden");
-resultSecreen.classList.add("hidden");
+function initialize() {
+  quizzScreen.classList.add("hidden");
+  resultSecreen.classList.add("hidden");
+  startScreen.classList.remove("hidden");
+}
+initialize();
 
 // Bouton demarrage active
 boutonStart.addEventListener("click",(e)=>{
@@ -64,12 +69,34 @@ passer.addEventListener("click",()=>{
 
 for (let i = 0; i < boutonChoix.length; i++) {
   boutonChoix[i].addEventListener("click",()=>{
+    // S'il a trouve
     if (boutonChoix[i].innerHTML == quizQuestions[indices[indices.length-1]].ans) {
       currentQuestion++;
       totalScore++;
-      poserQuestions();
+      boutonChoix[i].classList.add("true");
+      setTimeout(()=>{        
+        boutonChoix[i].classList.remove("true");
+        poserQuestions();
+      },500)
     } else {
-      wrongAnswer();
+      // Si elle a fausse, on cherche l'index de l'element faux et on le met en rouge, puis celui du vrai en
+      // 
+      let k=0;
+      for (let j = 0; j < boutonChoix.length; j++) {
+        if (boutonChoix[j].innerHTML == quizQuestions[indices[indices.length-1]].ans){
+          k = j;
+          boutonChoix[i].classList.add("false");
+          boutonChoix[k].classList.add("true");
+  
+          setTimeout(()=>{        
+            boutonChoix[i].classList.remove("false");
+            boutonChoix[k].classList.remove("true");
+            wrongAnswer();
+          },500)
+          break;
+        }
+      }
+
     }
   }) 
 }

@@ -12,9 +12,7 @@ body{
     height: 560px;
     width: 330px;
     background-color:#252C4A;
-    border-style: solid;
-    border-width: 18px;
-    border-color:#282B49;
+    border:#282B49 solid 18px;
     border-radius: 30px;
   }
   /* Copyright */
@@ -34,6 +32,7 @@ body{
 .hidden{
   display: none;
 }
+
 .next_bouton{
   padding: 15px 12px;
   font-family: 'Montserrat', sans-serif;
@@ -106,63 +105,19 @@ body{
   outline:none;
 }
 .btn:hover{
-  background: linear-gradient(90deg, rgba(250,81,113,1) 46%, rgba(250,81,113,1) 50%, rgba(37,44,74,1) 100%); 
+  transform: scale(1.05);
+  background-color: #8E97BD ;
 }
-.next-btn{
-  text-align: center;
+/* Test: S'il trouve une question fausse: Mettre ce dernier en rouge avec animation*/
+.true{
+  box-shadow: -1px -1px 1em green,2px 2px .4em green;
+  border: green 3px solid;
 }
-#next{
-  padding: 15px 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 15px;
-  border:none;
-  border-radius: 30px;
-  background-color:#117EEB;
-  color:white;
-  outline:none;
+.false{
+  box-shadow: -1px -1px 1em red,2px 2px .4em red;
+  border: red 3px solid;
 }
-#next:hover{
-  background-color: white;
-  color:#117EEB;
-}
-/* .time{
-    font-weight: 400;
-    color:white;
-    text-align: center;
-} */
 
-/* Conteneur question */
-/* #question{
-  font-weight: 400;
-  font-size: 20px;
-  height: 14vh;
-  text-align: center;
-  border-radius: 30px;
-  margin: 10px auto 20px;
-  padding:7px 5px;
-  color: white;
-  background-color: #8E97BD;
-}
-.choices{
-  text-align: center;
-}
-.btn{
-  width: 80%;
-  height: 50px;
-  margin-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  border: 3px solid #254567;
-  border-radius: 20px;
-  background-color:transparent;
-  color:white;
-  outline:none;
-}
-.btn:hover{
-  background: linear-gradient(90deg, rgba(250,81,113,1) 46%, rgba(250,81,113,1) 50%, rgba(37,44,74,1) 100%); 
-}
 .next-btn{
   text-align: center;
 }
@@ -182,16 +137,52 @@ body{
   color:#117EEB;
 }
 
-.il{
-  margin-top: 15vh;
+
+/* Troisieme partie */
+.result:not(.hidden){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color:white;
+  background:
+  linear-gradient(to top,#F55AD2,#603C84,#151342);
 }
-.result{
-  text-align: center;  
-} */
 /* Score */
 .app{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 35px;
-  color:white;
+}
+/* Stats */
+.result:not(.hidden) > div{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.result:not(.hidden) > div >span:nth-child(2){
+  font-weight: bold;
+}
+.result:not(.hidden) > div >span:nth-child(2)::after{
+  content: ">";
+  margin-left: 10px;
+}
+/* Bouton rejouer */
+.result:not(.hidden) button {
+  width: 90%;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 800;
+  background-color: #EC79D6;
+  box-shadow: #b14ea4;
 }
